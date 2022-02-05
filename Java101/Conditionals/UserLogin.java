@@ -1,5 +1,5 @@
 package Java101.Conditionals;
-import java.sql.SQLOutput;
+
 import java.util.*;
 
 public class UserLogin {
@@ -37,6 +37,7 @@ public class UserLogin {
                      System.out.print("Lütfen yeni şifrenizi giriniz: ");
                      yeniSifre = input.next();
                      System.out.print("Şifreniz başarıyla değiştirildi.\nTekrar giriş yapmak için sayfayı yenileyiniz");
+                     password = yeniSifre;
                  }else{
                      System.out.println("Şifreniz başarıyla değiştirildi.");
                      System.out.println("Tekrar giriş yapmayı deneyiniz.");
