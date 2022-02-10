@@ -8,13 +8,13 @@ public class MiniSorter {
 
         int a,b,c;
 
-        System.out.print("Lütfen 1. sayıyı giriniz: ");
+        System.out.print("Lütfen a sayısını giriniz: ");
         a = input.nextInt();
 
-        System.out.print("Lütfen 2. sayıyı giriniz: ");
+        System.out.print("Lütfen b sayısını giriniz: ");
         b = input.nextInt();
 
-        System.out.print("Lütfen 3. sayıyı giriniz: ");
+        System.out.print("Lütfen c sayısını giriniz: ");
         c = input.nextInt();
 
 
