@@ -4,7 +4,7 @@ public class CombinationCalculator {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int n, r, i = 1, k = 1, nom = 1, den = 1;
+        int n, r, i = 1, k = 1, j = 1, nom = 1, den1 = 1, den2 = 1;
 
 
         System.out.print("Please enter the number n: ");
@@ -18,10 +18,14 @@ public class CombinationCalculator {
             i++;
         }
         while (k <= r ) {
-            den = den * k;
+            den1 = den1 * k;
             k++;
         }
+        while (j <= (n-r) ) {
+            den2 = den2 * j;
+            j++;
+        }
 
-        System.out.println("Your result combination [C(n,r)] is " + (nom/den));
+        System.out.println("Your result combination [C(n,r)] is " + (nom/(den1*den2)));
     }
 }
