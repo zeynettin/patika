@@ -8,6 +8,7 @@ public class DiamondOfAsterikss {
         System.out.print("Bir Sayı Giriniz : ");
         int n = klavye.nextInt();
 
+
         for (int i = 0; i <= n ; i++) {
             for (int j = 0; j < (n - i); j++) {
                 System.out.print(" ");
